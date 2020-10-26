@@ -1,0 +1,195 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  width: 40%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.025em;
+  margin: 50px 370px 20px;
+}
+
+h1 span {
+  font-size: 50px;
+  background: #fff;
+  padding: 0 15px;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  padding: 10px;
+  font-size: xx-large;
+}
+.back-txt {
+  display: inline-flex;
+  margin-top: 32px;
+  margin-left: 10px;
+}
+.arrow {
+  color: #fff;
+  display: flex;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(233, 95, 53);
+  border-radius: 50%;
+  /* justify-content: center; */
+  /* padding: 3%; */
+}
+.card-container {
+  width: 79%;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 15px;
+  display: flex;
+  font-size: large;
+  text-align: left;
+  justify-content: space-evenly;
+}
+.todo-card {
+  height: 300px;
+  width: 30%;
+  border: 1px solid rgb(233, 95, 53);
+  border-radius: 5%;
+  text-indent: 95px;
+  font-size: 90%;
+  box-shadow: 3px 3px 6px gray;
+}
+.on-line {
+  text-decoration: line-through red;
+  /* text-align: center; */
+  /* margin: 5px; */
+}
+hr {
+  margin-left: 80px;
+}
+.sqr {
+  text-indent: 80px;
+}
+h2,
+.on-line {
+  color: rgb(233, 95, 53);
+}
+.plus {
+  margin-top: 5%;
+  margin-left: 23.5%;
+  font-size: xx-large;
+  }
+.fa {
+  color: rgb(233, 95, 53) ;
+  cursor: pointer;
+}
+label {
+  padding-left: 80px;
+}
+.pg {
+  display: inline;
+  text-align: center;
+  margin-left: 28.5%;
+  /* margin-top: 5%; */
+}
+.np {
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: large;
+  padding: 8px 8px 8px 8px;
+  background-color: rgb(233, 95, 53);
+  color: #fff;
+  box-shadow: 1px 1px 6px gray;
+}
+.np:hover {
+  background-color: #fff;
+  color: rgb(233, 95, 53);
+}
+
+@media only screen and (max-width: 600px){
+  body {
+    font-size: 26px;
+  }
+  h1 {
+    width: 100%;
+    margin: 0px 0px 0px;
+    margin-left: 85px;
+  }
+  h1 span{
+    font-size: 37px;
+    padding: 0%;
+    line-height: 50px;
+  }
+  .card-container {
+    position: relative;
+    margin-top: -25px;
+    /* margin: 10px 20px; */
+  }
+  .todo-card {
+    height: 350px;
+    width: 250px;
+    border: 0.1px solid rgb(233, 95, 53);
+    box-shadow: 7px 7px 5px lightgray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .on-line {
+    /* font-size: 25px; */
+    font-size: 1.15em;
+    height: 10px;
+    cursor: pointer;
+    justify-content: flex-start;
+    margin-left: -34px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  .card-container {
+    display: list-item;
+    /* margin-bottom: 10px; */
+  }
+  .card-container::marker {
+    color: #fff;
+  }
+  .pg {
+    margin: 14%;
+  }
+  .plus {
+    margin-left: 11%;
+  }
+  h1 {
+    border: none;
+    margin-top: 50px;
+    margin-left: -10px;
+  }
+  h1 span {
+    font-size: 35px;
+  }
+  .back-txt{
+    display: none;
+  }
+  .back-arrow {
+    margin-top: -59px;
+    margin-left: -290px;
+    font-size: 35px;
+  }
+  h2 {
+    text-align: center;
+    margin-left: -95px;
+    margin-top: 40px;
+    font-weight: 600;
+  }
+  .pt {
+    font-size: 1.15em;
+    margin-left: -39px;
+  }
+  input {
+    margin-right: 5px;
+  }
+  hr {
+    margin-left: 64px;
+  }
+  .plus {
+    margin-left: 20px;
+    margin-top: 38px;
+  }
+  .pg {
+    margin-left: 12.5%;
+  }
+}

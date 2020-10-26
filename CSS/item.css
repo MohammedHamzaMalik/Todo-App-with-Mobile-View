@@ -1,0 +1,142 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  zoom: 1.2;
+}
+.container {
+  /* height: 100%; */
+  position: absolute;
+  left: 37%;
+  top: 33%;
+  margin-left: 0px;
+  width: 25%;
+  height: 23%;
+  border: 1px solid rgb(233, 95, 53);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px gray;
+  text-align: center;
+  padding: 10px 20px;
+  /* justify-content: space-evenly; */
+  /* margin-left: 50%; */
+  background-color: #fff;
+  color: rgb(233, 95, 53);
+  z-index: 2;
+}
+button {
+  background-color: rgb(233, 95, 53);
+  color: #fff;
+  border: none;
+  border-radius: 25%;
+  border-radius: 9999em 9999em 9999em 9999em;
+  position: relative;
+  margin-left: -0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding: 5px 10px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+  /* border-top-left-radius: 25%; */
+input {
+  border: 1px solid rgb(233, 95, 53);
+  /* border-top-left-radius:  5%; */
+  box-shadow: 2px 2px 4px gray;
+}
+/* button {
+  border-radius: 9999em 9999em 9999em 9999em;
+  position: relative;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 1em;
+} */
+
+button:first-child {
+  margin-left: 0;
+}
+.bg-image {
+  width: 925px;
+  height: 500px;
+  background-image: url("./../img/Screenshot\ \(203\).png");
+  background-size: 100% auto;
+  margin-left: 90px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.pg {
+  display: inline;
+  text-align: center;
+  margin-left: 47%;
+  /* margin-top: 5%; */
+}
+.np {
+  margin-top: 40%;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: large;
+  padding: 8px 8px 8px 8px;
+  background-color: rgb(233, 95, 53);
+  color: #fff;
+  box-shadow: 1px 1px 6px gray;
+  z-index: 2;
+}
+.np:hover {
+  background-color: #fff;
+  color: rgb(233, 95, 53);
+}
+
+@media only screen and (max-width: 600px){
+  body {
+    font-size: 15px;
+  }
+  /* .container {
+    padding: 0%;
+    left: 15%;
+    min-height: 50%;
+    width: 70%;
+  } */
+  .container {
+    height: 27%;
+    width: 85%;
+    padding: 0%;
+    left: 7%;
+    border-radius: 7px;
+    box-shadow: 7px 7px 5px lightgray;
+  }
+  .add {
+    height: 20%;
+    width: 25%;
+    top: -10px;
+    left: 2%;
+  }
+  p {
+    margin-top: 20px;
+  }
+  .pg {
+    margin-left: 37%;
+  }
+  .np {
+    margin-top: 160%;
+  }
+  .bg-image {
+    height: 640px;
+    width: 360px;
+    background-size: 86%;
+    margin-left: 0px;
+    margin-top: -11px;
+    background-image: url("./../img/Screenshot\ \(215\).png");
+  }
+  input {
+    width: 60%;
+    height: 20%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px lightgray;
+  }
+}
